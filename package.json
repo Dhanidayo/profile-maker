@@ -1,0 +1,17 @@
+{
+  "name": "profile-maker",
+  "version": "1.0.0",
+  "description": "**FEATURES**\r * User can:\r * Create payload\r * Fetch data created\r * Update data\r * Delete data",
+  "main": "data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node data.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.8"
+  }
+}
