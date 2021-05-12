@@ -1,7 +1,7 @@
 {
   "name": "profile-maker",
   "version": "1.0.0",
-  "description": "**FEATURES**\r * User can:\r * Create payload\r * Fetch data created\r * Update data\r * Delete data",
+  "description": "**FEATURES**\r * User can:\r * Create payload\r * Fetch profile created\r * Update profile\r * Delete profile",
   "main": "data.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
