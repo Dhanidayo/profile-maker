@@ -3,9 +3,10 @@
 **FEATURES**
 * User can:
 * Create payload - use POST('/profiles')
-* Fetch profile created - use GET('/profiles/:id')
+* Fetch all profiles - use GET('/profiles')
+* Fetch a single profile - use GET('/profiles/:id')
 * Update profile - use PUT('/profiles/:id')
-* Delete profile - use DELETE('/Profiles/:id')
+* Delete profile - use DELETE('/profiles/:id')
 
 * Hosting link: https://make-profile.herokuapp.com/
 
@@ -13,10 +14,10 @@
 * Set up Mongoose
 * Create Schema
 * create routes:
-                POST
-                GET
-                PUT
-                DELETE
+                POST,
+                GET,
+                PUT,
+                DELETE,
 * Update folder structures
 
 
