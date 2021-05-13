@@ -2,16 +2,22 @@
 
 **FEATURES**
 * User can:
-* Create payload:
-                POST('/profiles')
-* Fetch profile created
-* Update profile
-* Delete profile
+* Create payload - use POST('/profiles')
+* Fetch profile created - use GET('/profiles/:id')
+* Update profile - use PUT('/profiles/:id')
+* Delete profile - use DELETE('/Profiles/:id')
+
+* Hosting link: https://make-profile.herokuapp.com/
 
 **TODO**
 * Set up Mongoose
 * Create Schema
-* Create routes
+* create routes:
+                POST
+                GET
+                PUT
+                DELETE
+* Update folder structures
 
 
 Data contains:
@@ -20,14 +26,10 @@ Data contains:
             country
 
 
-**TODO**
-* create routes
-* Update folder structures
-
-
 src
     controllers
     database
     nodejs
     routes
     data.js
+

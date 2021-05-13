@@ -1,11 +1,11 @@
 const express = require('express');
 const app = express();
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 
 //setting up mongoose
 const mongoose = require('mongoose');
-const connectionString = 'mongodb://localhost:27017/profile-maker';
+const connectionString = process.env.connectionString || 'mongodb://localhost:27017/profile-maker';
 
 app.use(express.json());
 

@@ -8,10 +8,13 @@
     "start": "node data.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sarah Adebesin",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.12.8"
+  },
+  "engines": {
+    "node": "15.11.0"
   }
 }
