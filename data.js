@@ -21,17 +21,17 @@ mongoose.connect(connectionString, {
     }
 })
 
-//redirect base link to profiles
-app.get('/', (req, res) => {
-    res.redirect('/profiles');
-})
-
 const profileSchema = new mongoose.Schema({
     name: String,
     email: String,
     country: String
 })
 const Profile = mongoose.model('Profile', profileSchema);
+
+///redirect base link to profiles
+app.get('/', (req, res) => {
+    res.redirect('/profiles');
+})
 
 //posts requests to /profiles to create a new profile
 app.post('/Profiles', function(req, res) {
