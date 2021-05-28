@@ -8,7 +8,7 @@
 * Update profile - use PUT('/profiles/:id')
 * Delete profile - use DELETE('/profiles/:id')
 
-* Hosting link: https://make-profile.herokuapp.com/
+* Hosting link: https://make-profile.herokuapp.com/profiles
 
 **TODO**
 * Set up Mongoose
